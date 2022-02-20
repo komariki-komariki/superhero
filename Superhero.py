@@ -15,6 +15,6 @@ def search_hero():
 
 def most_intelligent():
     search_hero()
-    print(f'Самый умный - {max(smart)}')
+    return f'Самый умный - {max(smart, key=smart.get)}'
 
 print(most_intelligent())
