@@ -18,3 +18,4 @@ def most_intelligent():
     return f'Самый умный - {max(smart, key=smart.get)}'
 
 print(most_intelligent())
+a = 123444
